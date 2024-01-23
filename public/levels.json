@@ -1,0 +1,47 @@
+{
+  "levels": [
+    {
+      "name": "test",
+      "bodies": [
+        {
+          "name": "Earth",
+          "type": "planet",
+          "radius": 2,
+          "mass": 1000,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "radialSpeed": 0.001,
+          "texture": "earth.jpg"
+        },
+        {
+          "name": "Moon",
+          "type": "planet",
+          "radius": 1,
+          "mass": 300,
+          "position": {
+            "x": -8,
+            "y": 0
+          },
+          "radialSpeed": 0,
+          "texture": "moon.jpg"
+        }
+      ],
+      "players": [
+        {
+          "position": {
+            "x": 10,
+            "y": -5
+          }
+        },
+        {
+          "position": {
+            "x": -10,
+            "y": 5
+          }
+        }
+      ]
+    }
+  ]
+}
